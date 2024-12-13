@@ -100,6 +100,24 @@ if (NewYork && isStudent) {
   std::cout << "New Yorker" << std::endl;
 }
 // Bonus Challenge 
-
+int i;
+i = 50;
+double d = 100.5;
+bool flag = false;
+bool divi = (i%5 == 0);
+bool dgreater = (d > 50);
+if (divi && dgreater) {
+  std::cout << "Yes" << std::endl;
+}
+bool dless = (d <= 100);
+if (dless || flag) {
+  std::cout << "Yes" << std::endl;
+} else {
+  std::cout << "No" << std::endl;
+}
+bool igreater = (i > 30);
+if (igreater && !flag) {
+  std::cout << "Yes" << std::endl;
+}
   return 0;
 }  
