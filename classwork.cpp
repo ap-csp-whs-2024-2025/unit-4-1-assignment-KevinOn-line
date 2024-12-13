@@ -71,5 +71,35 @@ mod_xy = x % y;
   std::cout << hlANDmn << std::endl;
   bool hlANDn5 = (!hasLicense && n > 5);
   std::cout << hlANDn5 << std::endl;
+  // Exercise 4
+std::string FirstName = "John";
+std::string lastName = "Doe";
+double score = 85.75;
+std::cout << FirstName << " " << lastName << std::endl;
+std::cout << "Your score is: " << score << std::endl;
+  
+  // Exercise 6
+  int age;
+  age = 18;
+  double height = 5.9; // ft
+  bool isStudent = true;
+  std::string city = "New York";
+  int BirthYear;
+  BirthYear = (2024 - age);
+std::cout << BirthYear << std::endl;
+  bool Adult = (age >= 18);
+if (Adult = 1) {
+  std::cout << "Adult Confirmed" << std::endl;
+}
+  bool HeightCheck = (height > 6);
+if (HeightCheck = 0) {
+  std::cout << "Tough Luck" << std::endl;
+}
+bool NewYork = (city == "New York");
+if (NewYork && isStudent) {
+  std::cout << "New Yorker" << std::endl;
+}
+// Bonus Challenge 
+
   return 0;
 }  
